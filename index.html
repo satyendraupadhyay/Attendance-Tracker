@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Attendance</title>
+</head>
+<body>
+    <form id="my-form">
+        <label for="date">Select a Date:</label>
+        <input type="date" id="date" required>
+        <button type="submit">Search</button>
+    </form>
+    <button type="button" id="reportBtn">Fetch Attendance report</button>
+    <hr>
+    <div id="attendanceList"></div>
+    <div id="totalAtt"></div>
+    <div id="report"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.7/axios.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
